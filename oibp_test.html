@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hello SyntaxHighlighter</title>
+	<script type="text/javascript" src="scripts/shCore.js"></script>
+	<script type="text/javascript" src="oibp_custom/shBrushBasicPlus.js"></script>
+	<link type="text/css" rel="stylesheet" href="oibp_custom/shCoreBasicPlus.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<h1>Hello SyntaxHighlighter test for OpenInsight BasicPlus</h1>
+
+<!-- All code must be HTML Escaped -->
+<pre class="brush: basicplus;">
+Subroutine TEST_OIBPSH(params)
+Declare Function rti_cdomail
+ 
+*Sample comment
+sendername      = &#39;oitest@openinsight.congruityservice.com&#39; ;* End of line comment
+
+mvVar&lt;1&gt; = &#39;Value 1&#39;
+mvVar&lt;2&gt; = &#39;text marked&#39; : @TM : &#39;variable value&#39;
+
+/* 
+more code to follow
+after multi-line comment 
+*/
+
+return sendername
+</pre>
+
+</html>
