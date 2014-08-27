@@ -104,7 +104,7 @@
 		this.regexList = [
 			{ regex: SyntaxHighlighter.regexLib.multiLineCComments,			css: 'comments' },
 			{ regex: /^#!.*$/gm,											css: 'preprocessor bold' },
-			{ regex: /^\*.*$/gm,											css: 'comments' },
+			{ regex: /^\s*\*.*$/gm,											css: 'comments' },		//Comments w/ leading space
 			{ regex: /;\s?\*.*$/gm,											css: 'comments' },
 			{ regex: /\d/gm,												css: 'constants' },
 			{ regex: /\/[\w-\/]+/gm,										css: 'plain' },
